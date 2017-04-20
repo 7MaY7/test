@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>UPQODE</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script type="text/javascript" src="js/js.js" ></script>
+</head>
+<body>
+  <header class="navbar-fixed-top">
+    <nav class="navbar container">
+      <div class="container-fluid">
+        <div class="navbar-header">
+
+          <a class="navbar-brand" href="#" style="color: #3bb7e9">
+            <span style="color: #503392">up</span><span>qode</span>
+          </a>
+
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span> 
+          </button>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <form class="navbar-form navbar-right">
+          <ul class="nav navbar-nav">
+            <li id="home_nav" class="active"><a href="#">Home</a></li>
+            <li class="dropdown">
+              <a id="products_nav" class="dropdown-toggle" data-toggle="dropdown" href="#">Products</a>
+                <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
+                  <li><a href="#">Level 1.1</a></li>
+                  <li><a href="#">Level 1.2</a></li>
+                  <li class="dropdown-submenu"><a tabindex="-1" href="#">Level 1.3</a>
+                    <ul class="dropdown-menu">
+                      <li><a tabindex="-1" href="#">Level 2.1</a></li>
+                      <li><a href="#">Level 2.2</a></li>
+                      <li class="dropdown-submenu"><a tabindex="-1" href="#">Level 2.3</a>
+                        <ul class="dropdown-menu">
+                          <li><a tabindex="-1" href="#">Level 3.1</a></li>
+                          <li><a href="#">Level 3.2</a></li>
+                          <li><a href="#">Level 3.3</a></li>
+                          <li><a href="#">Level 3.4</a></li>
+                        </ul>
+                      </li>
+                      <li><a href="#">Level 2.4</a></li>
+                      <li><a href="#">Level 2.5</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#">Level 1.4</a></li>
+                </ul>
+            </li>
+            <li id="about_nav"><a href="#">About</a></li>
+            <li id="contact_nav"><a href="#">Contact</a></li>
+            
+          </ul>
+          <div class="input-group" id="searchGroupe">
+                <input type="text" id="search" class="form-control">
+                  <div class="input-group-btn">
+                    <button class="btn btn-default" type="submit">
+                      <i class="glyphicon glyphicon-search"></i>
+                    </button>
+                  </div>
+              </div>
+
+        </form>  
+        </div> 
+          
+      </div>
+    </nav>
+  </header>
+  <section>
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner" role="listbox">
+
+        <div class="item active">
+          <img src="img/img.jpg">
+          <div class="carousel-caption">
+            <div><span style="color: white">CREATIVE</span><span style="color: #fff200"> DESIGN AGENCY</span></div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque harum, ipsa debitis dignissimos dicta molestiae quam, ipsum, unde ut nulla nihil minus!</p>
+          </div>
+        </div>
+
+        <div class="item">
+          <img src="img/img.jpg">
+          <div class="carousel-caption">
+            <div><span style="color: white">CREATIVE</span><span style="color: #fff200"> DESIGN AGENCY</span></div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque harum, ipsa debitis dignissimos dicta molestiae quam, ipsum, unde ut nulla nihil minus!</p>
+          </div>
+        </div>
+      
+        <div class="item">
+          <img src="img/img.jpg">
+          <div class="carousel-caption">
+            <div><span style="color: white">CREATIVE</span><span style="color: #fff200"> DESIGN AGENCY</span></div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque harum, ipsa debitis dignissimos dicta molestiae quam, ipsum, unde ut nulla nihil minus!</p>
+          </div>
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+
+    <div class="whyUs container">
+
+      <div class="title">
+        <span style="color: black">WHY</span><span style="color: #3bb7e9"> CHOOSE US</span>
+      </div>
+        <p class="titleText col-md-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+      
+        <div class="cards">
+          <div class="panel panel-default">
+            <div class="panel-body panelImg"><img src="img/whyChooseUs/heart.png" alt="heart"></div>
+            <div class="panel-body panelText">
+              <h4>YOUR TITLE</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+            </div>
+            <a href="" class="panel-body onHover">
+              <p>SEE MORE</p>
+              <div class="onHoverImg"><i class="fa fa-link" aria-hidden="true"></i></div>
+              <div class="onHoverImg zoom"><i class="fa fa-search-plus" aria-hidden="true"></i></div>
+            </a>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-body panelImg"><img src="img/whyChooseUs/coment.png" alt="heart"></div>
+            <div class="panel-body">
+              <h4>YOUR TITLE</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+            </div>
+            <a href="" class="panel-body onHover">
+              <p>SEE MORE</p>
+              <div class="onHoverImg"><i class="fa fa-link" aria-hidden="true"></i></div>
+              <div class="onHoverImg zoom"><i class="fa fa-search-plus" aria-hidden="true"></i></div>
+            </div>
+          </a>
+          <div class="panel panel-default">
+            <div class="panel-body panelImg"><img src="img/whyChooseUs/laptop.png" alt="heart"></div>
+            <div class="panel-body">
+              <h4>YOUR TITLE</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+            </div>
+            <a href="" class="panel-body onHover">
+              <p>SEE MORE</p>
+              <div class="onHoverImg"><i class="fa fa-link" aria-hidden="true"></i></div>
+              <div class="onHoverImg zoom"><i class="fa fa-search-plus" aria-hidden="true"></i></div>
+            </a>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-body panelImg"><img src="img/whyChooseUs/star.png" alt="heart"></div>
+            <div class="panel-body">
+              <h4>YOUR TITLE</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+            </div>
+            <a  href="" class="panel-body onHover">
+              <p>SEE MORE</p>
+              <div class="onHoverImg"><i class="fa fa-link" aria-hidden="true"></i></div>
+              <div class="onHoverImg zoom"><i class="fa fa-search-plus" aria-hidden="true"></i></div>
+            </a>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-body panelImg"><img src="img/whyChooseUs/coment.png" alt="heart"></div>
+            <div class="panel-body">
+              <h4>YOUR TITLE</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+            </div>
+            <a href="" class="panel-body onHover">
+              <p>SEE MORE</p>
+              <div class="onHoverImg"><i class="fa fa-link" aria-hidden="true"></i></div>
+              <div class="onHoverImg zoom"><i class="fa fa-search-plus" aria-hidden="true"></i></div>
+            </a>
+          </div>
+        </div>
+    </div>  
+
+    <div class="ourProducts">
+      <div class="title">
+        <span style="color: white">OUR</span><span style="color: #fff200"> PRODUCTS</span>
+      </div>
+      <div class="works container">
+          <div class="card">
+            <div id="forImg1"></div>
+            <div class="forText">
+              <p class="smallTitle">TITLE</p>
+              <p class="violetTitle">Best product</p>
+              <p>Lorem ipsum dolor sit amet, consectetur</p>
+            </div>
+          </div>
+          <div class="card">
+            <div id="forImg2"></div>
+            <div class="forText">
+              <p class="smallTitle">TITLE</p>
+              <p class="violetTitle">Best product</p>
+              <p>Lorem ipsum dolor sit amet, consectetur</p>
+            </div>
+          </div><div class="card">
+            <div id="forImg3"></div>
+            <div class="forText">
+              <p class="smallTitle">TITLE</p>
+              <p class="violetTitle">Best product</p>
+              <p>Lorem ipsum dolor sit amet, consectetur</p>
+            </div>
+          </div><div class="card">
+          <div id="forImg4"></div>
+          <div class="forText">
+            <p class="smallTitle">TITLE</p>
+            <p class="violetTitle">Best product</p>
+            <p>Lorem ipsum dolor sit amet, consectetur</p>
+          </div>
+        </div><div class="card">
+          <div id="forImg5"></div>
+          <div class="forText">
+            <p class="smallTitle">TITLE</p>
+            <p class="violetTitle">Best product</p>
+            <p>Lorem ipsum dolor sit amet, consectetur</p>
+          </div>
+        </div><div class="card">
+          <div id="forImg6"></div>
+          <div class="forText">
+            <p class="smallTitle">TITLE</p>
+            <p class="violetTitle">Best product</p>
+            <p>Lorem ipsum dolor sit amet, consectetur</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="aboutUs container">
+      <div class="title title-left">
+        <span style="color: #3bb7e9">ABOUT</span><span style="color: black"> US</span>
+      </div>
+      <div class="info col-md-6">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+        <br>
+        <p style="color: #373737">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.</p>
+        <div class="technologies">
+            <div class="skillCont">
+              <div class="skillName"><p>PHOTOSHOP</p><p>79%</p></div>
+              <div class="gradBack"><div class="gradPs"></div></div>
+            </div>
+            <div class="skillCont">
+              <div class="skillName"><p>HTML/CSS</p><p>90%</p></div>
+              <div class="gradBack"><div class="gradHc"></div></div>
+            </div>
+            <div class="skillCont">
+              <div class="skillName"><p>JAVASCRIPT</p><p>69%</p></div>
+              <div class="gradBack"><div class="gradJs"></div></div>
+            </div>
+            <div class="skillCont">
+              <div class="skillName"><p>WORDPRESS</p><p>92%</p></div>
+              <div class="gradBack"><div class="gradWp"></div></div>
+            </div>
+        </div>
+      </div>
+      <div class="aboutUsImg col-md-6">
+        <img src="img/ipad.png " width=60%>
+      </div>
+    </div>
+
+    <div class="getInTouch">
+
+      <div class="title">
+        <span style="color: black">GET IN</span><span style="color: #3bb7e9"> TOUCH</span>
+      </div>
+      <p class="titleText col-md-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+    
+      <div class="mapBg">
+      <!--<div id="googleMap" class="jumbotron"  style="width:100%;height:400px;"></div>
+
+        <script>
+        function myMap() {
+        var mapProp= {
+            center:new google.maps.LatLng(51.508742,-0.120850),
+            zoom:5,
+        };
+        var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+        }
+        </script>
+
+        <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>-->
+        <div class="contacts">
+          <div class="contactForm">
+            <form class="cmxform" id="commentForm" method="get" action="">
+              <fieldset>
+                <input  id="cname" name="name" minlength="2" type="text" placeholder="Full Name"  required>
+                <input id="cemail" type="email" name="email" placeholder="E-mail Address" required>
+              
+                <textarea id="ccomment" name="comment" required placeholder="Message"></textarea>
+
+                <input class="submit" type="submit" value="Send">
+                <div class="checkbox">
+                  <label><input type="checkbox" value=""> I like your company</label>
+                </div>
+              </fieldset>
+            </form>
+          </div>
+
+          <div class="addressInfo">
+            <ul> 
+              <li>69/A, Some Street Name</li>
+              <li>Your City, code 01234</li> 
+              <li>Country Name</li>
+              <br>
+              <li>+880 123 456 78 98</li>
+              <li>+860 987 648 74 95</li>
+              <br>
+              <li>company@mail.com</li>
+              <li>sales@mail.com</li>
+            </ul>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+  </section>
+  <footer>
+    <p style="color: #7a7a7a;">Copyright &copy; Company. All Rights Reserved  2016</p>
+    <ul class="socials">
+      <li class="socialIcon"><a href=""><img src="img/facebook.png"></a></li>
+      <li class="socialIcon"><a href=""><img src="img/googleplus.png"></a></li>
+      <li class="socialIcon"><a href=""><img src="img/twitter.png"></a></li>
+      <li class="socialIcon"><a href=""><img src="img/dribbble.png"></a></li>
+    </ul>
+  </footer>
+
+</body>
+</html>
