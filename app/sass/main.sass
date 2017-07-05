@@ -1,0 +1,508 @@
+@import "fonts"
+@import "libs"
+@import "vars"
+
+*::-webkit-input-placeholder
+	color: #666
+	opacity: 1
+
+*:-moz-placeholder
+	color: #666
+	opacity: 1
+
+*::-moz-placeholder
+	color: #666
+	opacity: 1
+
+*:-ms-input-placeholder
+	color: #666
+	opacity: 1
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid
+	color: #666
+body input:required:valid,
+body textarea:required:valid
+	color: #666
+
+body
+	font-size: 14px
+	min-width: 320px
+	position: relative
+	line-height: 1.75
+	font-family: $default-font
+	overflow-x: hidden
+	opacity: 1
+	color: #b7b7b7
+
+a
+	text-decoration: none
+
+
+a:hover
+	text-decoration: none
+
+
+li
+	list-style: none
+
+
+header
+	height: 70px
+	background-color: white
+
+
+nav a
+	font-size: 16px
+	color: #232323
+
+
+.navbar
+	margin-bottom: 0
+
+
+.container-fluid
+	height: 70px
+
+
+.navbar-header
+	padding-top: 10px
+
+
+.navbar-brand
+	font-family: BEYNO
+	font-size: 30px
+
+
+.icon-bar
+	background-color:#232323 !important
+
+
+.collapse.in
+	border-top: 2px solid #fff200
+	border-radius: 0
+	background-color: rgba(0, 0, 0, 0.65)
+
+
+.collapse.in a
+	color: #fdfdfd
+
+
+.navbar-form
+	margin-top: 0
+	margin-bottom: 0
+
+
+ul.nav
+	margin-top: 5px
+
+
+.dropdown.open>ul.dropdown-menu.multi-level
+	margin-top: 14px
+
+
+.dropdown-menu 
+	border-top: 2px solid #fff200
+	border-radius: 0
+	background-color: rgba(0, 0, 0, 0.65)
+	color: #fdfdfd
+
+
+.dropdown-menu > li > a
+	color: #fdfdfd
+
+
+.dropdown-submenu 
+	position: relative
+
+
+.dropdown-submenu>.dropdown-menu 
+	top: 0
+	left: 100%
+	margin-top: -6px
+	margin-left: -1px
+
+
+.dropdown-submenu:hover>.dropdown-menu 
+	display: block
+
+
+.dropdown-submenu>a:after 
+	display: block
+	content: " "
+	float: right
+	width: 0
+	height: 0
+	border-color: transparent
+	border-style: solid
+	border-width: 5px 0 5px 5px
+	border-left-color: #ccc
+	margin-top: 5px
+	margin-right: -10px
+
+
+.dropdown-submenu:hover>a:after 
+	border-left-color: #fff
+
+
+.dropdown-submenu.pull-left 
+	float: none
+
+
+.dropdown-submenu.pull-left>.dropdown-menu 
+	left: -100%
+	margin-left: 10px
+
+
+#searchGroupe
+	width: 180px
+	margin-top: 15px
+	margin-left: 10px
+
+
+#search
+	border: none
+	border-radius: 0
+	background-color: #f1eff7
+	color: #b7b7b7
+	height: 31px
+
+
+#searchGroupe button
+	border: none
+	border-radius: 0
+	background-color: #f1eff7
+	color: #5b5b5b
+	height: 31px
+
+
+
+
+/*next is carousel*/
+
+#myCarousel
+	margin-top: 70px
+
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img 
+	width: 100%
+	margin: auto
+
+
+.carousel-inner > .item > .carousel-caption 
+	height: 100%
+	display: flex
+	flex-direction: column
+	justify-content: center
+
+.carousel-indicators > li
+	width: 7px
+	height: 7px
+	border: none
+	background-color: #b7b7b7
+
+	.carousel-indicators .active
+	width: 7px
+	height: 7px
+	border: none
+	margin: 0
+
+.carousel-caption
+	margin: auto
+
+.carousel-caption>div>span
+	font-size: 42px
+	font-weight: bold
+
+/*next is why us*/
+
+.whyUs
+	display: flex
+	flex-direction: column
+	justify-content: center
+	align-items: center
+
+
+.title
+	text-align: center
+	font-size: 30px
+	font-weight: bold
+	margin-top: 120px
+
+
+.title-left
+	text-align: left
+	padding-left: 15px
+	padding-bottom: 35px
+
+
+.titleText
+	text-align: center
+	margin-top: 50px
+	margin-bottom: 50px
+
+
+.cards
+	display: flex
+	flex-wrap: wrap
+	justify-content: center
+
+
+.panel
+	width: 200px
+	margin-left: 20px
+	border-radius: 0
+
+
+.panel-body
+	height: 150px
+	display: flex
+	flex-direction: column
+	justify-content: center
+	align-items: center
+	text-align: center
+
+
+.panelImg
+	height: 120px
+
+.panelText
+	position: relative
+
+.onHover
+	background-color: #6a52a2
+	position: absolute
+	z-index: 999999
+	margin-top: -150px
+	color: white
+	display: flex
+	flex-direction: row
+	flex-wrap: wrap
+
+.onHover:hover
+	color: white
+
+.onHover p
+	width: 100%
+
+.onHoverImg
+	height: 35px
+	width: 35px
+	border: 1px solid white
+	border-radius: 50%
+	display: flex
+	align-items: center
+	justify-content: center
+	margin: 7px
+
+.onHoverImg.zoom
+	background-color: white
+	color: #6a52a2
+
+/*next is products*/
+
+.ourProducts
+	background-image: url(../img/ourProducts/backProducts.png)
+	background-size: cover
+	background-repeat: no-repeat
+
+
+.ourProducts>.title
+	padding-top: 30px
+
+.works
+	display: flex
+	flex-wrap: wrap
+	justify-content: center
+	padding-top: 150px
+	padding-bottom: 100px
+
+
+.card
+	display: flex
+	flex-direction: row
+	align-items: center
+	width: 335px
+	margin-right: 20px
+	margin-bottom: 50px
+
+
+#forImg1,
+#forImg2,
+#forImg3,
+#forImg4,
+#forImg5,
+#forImg6
+	border-radius: 50%
+	width: 143px
+	height: 143px
+	background-position: center
+
+
+
+#forImg1
+	background-image: url(../img/ourProducts/prod1.png)
+
+#forImg2
+	background-image: url(../img/ourProducts/prod2.png)
+
+#forImg3
+	background-image: url(../img/ourProducts/prod3.png)
+
+#forImg4
+	background-image: url(../img/ourProducts/prod4.png)
+
+#forImg5
+	background-image: url(../img/ourProducts/prod5.png)
+
+#forImg6
+	background-image: url(../img/ourProducts/prod6.png)
+
+.forText
+	width: 50%
+	padding-left: 27px
+
+
+.smallTitle
+	color: #232323
+	font-size: 24px
+
+
+.violetTitle
+	color: #503392
+	font-size: 16px
+
+
+/*about us*/
+
+.skillCont
+	flex-flow: column wrap
+	width: 100%
+
+
+.skillName
+	display: flex
+	justify-content: space-between
+	align-items: baseline
+	color: #444444
+	font-weight: bold
+	font-size: 13px
+	margin-top: 40px
+
+
+.gradPs,
+.gradHc,
+.gradJs,
+.gradWp
+	background: #58b7db
+	height: 4px
+	width: 0%
+	margin-top: 1px
+
+
+.gradBack
+	background-color: transparent
+	height: 8px
+	width: 100%
+	border: 1px solid #b7b7b7
+
+
+.aboutUsImg
+	display: flex
+	flex-direction: column
+	align-items: center
+
+/*get In touch*/
+
+.getInTouch
+	display: flex
+	flex-direction: column
+	justify-content: center
+	align-items: center
+
+.getInTouch>img
+	width: 100%
+	position: relative
+
+
+.mapBg
+	width: 100%
+	background-image: url(../img/map.jpg)
+	background-size: cover
+	padding: 60px
+
+
+.contacts
+	display: flex
+	flex-wrap: wrap
+	width: 65%
+	background-color: rgba(0, 0, 0, 0.5)
+	margin: auto
+
+
+.contactForm 
+	display: flex
+	flex-direction: column
+	width: 60%
+	padding: 67px
+
+::-webkit-input-placeholder/* Chrome/Opera/Safari */
+	color: #b7b7b7
+
+::-moz-placeholder/* Firefox 19+ */
+	color: #b7b7b7
+
+:-ms-input-placeholder/* IE 10+ */
+	color: #b7b7b7
+
+#cname, #cemail, textarea 
+	width: 49%
+	border: 1px solid #ccc
+	margin-bottom: 16px
+	background-color: transparent
+	color: #b7b7b7
+	padding: 10px
+
+
+textarea 
+	width: 100%
+	height: 130px
+
+
+input[type=submit] 
+	width: 120px
+	height: 50px
+	background-color: #c3c40c
+	border: none
+	cursor: pointer
+	float: right
+	color: black
+
+
+input[type=submit]:hover 
+	background-color: #a6a705
+
+
+.addressInfo
+	padding-top: 67px
+
+footer
+	display: flex
+	justify-content: space-between
+	align-items: center
+	background-color: #1a1a1a
+	padding: 20px 30px 20px 30px
+
+
+.socials
+	display: flex
+
+
+.socialIcon>a>img
+	height: 20px
+	padding-right: 25px
+
+
+
+@import "media" // Всегда в конце
